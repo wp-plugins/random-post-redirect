@@ -1,7 +1,7 @@
 === Random Post Redirect ===
 Contributors: n7studios,wpcube
 Donate link: http://www.wpcube.co.uk/plugins/random-post
-Tags: random,post
+Tags: random,post,redirect
 Requires at least: 3.6
 Tested up to: 4.3
 Stable tag: trunk
@@ -52,6 +52,9 @@ Find out more about us:
 1. Settings Screen
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix: Check categories is an array before attempting to output on settings screen
 
 = 1.0 =
 * First release.

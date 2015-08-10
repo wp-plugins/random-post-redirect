@@ -42,8 +42,10 @@
                                 <p>     
                                     <select multiple="multiple" name="<?php echo $this->plugin->name; ?>[exclude][]" id="<?php echo $this->plugin->name; ?>[exclude]" class="widefat">
                                         <?php
-                                        foreach($this->plugin->categories as $key=>$category){
-                                            echo '<option value="' . $category->term_id . '" ' . (in_array($category->term_id, $this->settings['exclude']) ? 'selected="selected"' : '') . '>' . $category->name . '</option>';
+                                        if ( is_array( $this->plugin->categories ) ) {
+                                            foreach( $this->plugin->categories as $key=>$category ){
+                                                echo '<option value="' . $category->term_id . '" ' . (in_array($category->term_id, $this->settings['exclude']) ? 'selected="selected"' : '') . '>' . $category->name . '</option>';
+                                            }
                                         }
                                         ?>
                                     </select>

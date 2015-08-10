@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Random Post Redirect
 * Plugin URI: http://www.wpcube.co.uk
-* Version: 1.0
+* Version: 1.0.1
 * Author: <a href="http://www.n7studios.co.uk">n7 Studios</a>, <a href="http://www.wpcube.co.uk">WP Cube</a>
 * Description: Redirects to a random Post on your WordPress site
 * License: GPL2
@@ -30,7 +30,7 @@
 * @package WordPress
 * @subpackage Random Post
 * @author Tim Carr
-* @version 1.0
+* @version 1.0.1
 * @copyright WP Cube
 */
 class RandomPost {
@@ -44,7 +44,7 @@ class RandomPost {
         $this->plugin = new stdClass;
         $this->plugin->name         = 'random-post-redirect'; // Plugin Folder
         $this->plugin->displayName  = 'Random Post Redirect'; // Plugin Name
-        $this->plugin->version      = '1.0';
+        $this->plugin->version      = '1.0.1';
         $this->plugin->folder       = plugin_dir_path( __FILE__ );
         $this->plugin->url          = plugin_dir_url( __FILE__ );
         $this->plugin->settingsUrl  = get_bloginfo('url') . '/wp-admin/admin.php?page=' . $this->plugin->name; 
