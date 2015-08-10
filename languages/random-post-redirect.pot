@@ -1,10 +1,11 @@
-# Copyright (C) 2015 Random Post
-# This file is distributed under the same license as the Random Post package.
+# Copyright (C) 2015 Random Post Redirect
+# This file is distributed under the same license as the Random Post Redirect package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Random Post 1.0.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/random-post\n"
-"POT-Creation-Date: 2015-03-18 19:35:53+00:00\n"
+"Project-Id-Version: Random Post Redirect 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/random-post-"
+"redirect\n"
+"POT-Creation-Date: 2015-03-26 11:33:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,15 +127,15 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: random-post.php:99
+#: random-post-redirect.php:99
 msgid "nonce field is missing. Settings NOT saved."
 msgstr ""
 
-#: random-post.php:102
+#: random-post-redirect.php:102
 msgid "Invalid nonce specified. Settings NOT saved."
 msgstr ""
 
-#: random-post.php:106
+#: random-post-redirect.php:106
 msgid "Settings Updated."
 msgstr ""
 
@@ -165,11 +166,11 @@ msgid "Save"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Random Post"
+msgid "Random Post Redirect"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.wpcube.co.uk/plugins/random-post/"
+msgid "http://www.wpcube.co.uk"
 msgstr ""
 
 #. Description of the plugin/theme
